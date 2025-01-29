@@ -7,6 +7,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "main", "main", "{9CBAF15C-0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flare.Api", "main\Flare.Api\Flare.Api.csproj", "{A79D7E2A-6C1B-4317-A1AC-99AB00CBB827}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{53DB3598-1002-4235-8E0A-4CDBBB3845BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{61C9A3CD-C158-45CB-9D4C-23272601BC79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flare.Modules.Identity.Application", "main\Modules\Identity\Flare.Modules.Identity.Application\Flare.Modules.Identity.Application.csproj", "{2A59555C-3DCF-4CA7-A2BC-CABF4F59B7D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +26,15 @@ Global
 		{A79D7E2A-6C1B-4317-A1AC-99AB00CBB827}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A79D7E2A-6C1B-4317-A1AC-99AB00CBB827}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A79D7E2A-6C1B-4317-A1AC-99AB00CBB827}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A59555C-3DCF-4CA7-A2BC-CABF4F59B7D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A59555C-3DCF-4CA7-A2BC-CABF4F59B7D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A59555C-3DCF-4CA7-A2BC-CABF4F59B7D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A59555C-3DCF-4CA7-A2BC-CABF4F59B7D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A79D7E2A-6C1B-4317-A1AC-99AB00CBB827} = {9CBAF15C-0174-4B0B-92A9-3D91C0D65C32}
+		{53DB3598-1002-4235-8E0A-4CDBBB3845BB} = {9CBAF15C-0174-4B0B-92A9-3D91C0D65C32}
+		{61C9A3CD-C158-45CB-9D4C-23272601BC79} = {53DB3598-1002-4235-8E0A-4CDBBB3845BB}
+		{2A59555C-3DCF-4CA7-A2BC-CABF4F59B7D3} = {61C9A3CD-C158-45CB-9D4C-23272601BC79}
 	EndGlobalSection
 EndGlobal
