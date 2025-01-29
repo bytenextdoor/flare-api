@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flare.Api", "Flare.Api\Flare.Api.csproj", "{51EA119F-39B9-41E0-981E-3EF7706EB06F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "main", "main", "{9CBAF15C-0174-4B0B-92A9-3D91C0D65C32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flare.Api", "Flare.Api\Flare.Api.csproj", "{A1DDD6AC-1AE7-4647-99E6-17E06FAC8354}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,9 +16,12 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{51EA119F-39B9-41E0-981E-3EF7706EB06F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{51EA119F-39B9-41E0-981E-3EF7706EB06F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{51EA119F-39B9-41E0-981E-3EF7706EB06F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{51EA119F-39B9-41E0-981E-3EF7706EB06F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1DDD6AC-1AE7-4647-99E6-17E06FAC8354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1DDD6AC-1AE7-4647-99E6-17E06FAC8354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1DDD6AC-1AE7-4647-99E6-17E06FAC8354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1DDD6AC-1AE7-4647-99E6-17E06FAC8354}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A1DDD6AC-1AE7-4647-99E6-17E06FAC8354} = {9CBAF15C-0174-4B0B-92A9-3D91C0D65C32}
 	EndGlobalSection
 EndGlobal
